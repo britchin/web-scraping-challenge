@@ -39,5 +39,8 @@ Scrape the NASA Mars News Site and collect the latest News Title and Paragraph T
 * Store the return value in Mongo as a Python dictionary.
 * Create a root route / that will query Mongo database and pass the mars data into an HTML template to display the data.
 * Create a template HTML file called index.html that will take the mars data dictionary and display all of the data in the appropriate HTML elements.
+![App_Pic](Mission_to_Mars/my_app_screenshots/my_app_pic1.png)
+![App_Pic](Mission_to_Mars/my_app_screenshots/my_app_pic2.png)
+![App_Pic](Mission_to_Mars/my_app_screenshots/my_app_pic3.png)
 
 ### All files completed and used are uploaded here
