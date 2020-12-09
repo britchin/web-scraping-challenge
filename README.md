@@ -9,7 +9,7 @@ Initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Spl
 ### NASA Mars News
 
 Scrape the NASA Mars News Site and collect the latest News Title and Paragraph Text.
-![Mars_Pic](Mission_to_Mars/Images/NASA_mars_news.png)
+![Mars_Pic](https://github.com/britchin/web-scraping-challenge/blob/main/Mission_to_Mars/Images/NASA%20_mars_news.png)
 
 ### JPL Mars Space Images - Featured Image
 
