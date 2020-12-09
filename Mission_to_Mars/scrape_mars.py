@@ -20,20 +20,15 @@ def scrape():
     html = browser.html
     soup = bs(html, 'html.parser')
 
-    # Find titles
-    title = soup.find_all('div', class_='content_title')
+    #Find title
+    step1 = soup.find('ul', class_='item_list')
+    step2 = step1.find('li', class_='slide')
+    news_title = step2.find('div', class_='content_title').text
+    news_title
 
     # Find paragraph text
-    paragraph = soup.find_all('div', class_='article_teaser_body')
-
-
-    # Extract first title and paragraph, and assign to variables
-    news_title = title[0].text
-    news_p = paragraph[0].text
-
-    #print(news_title)
-    #print(news_p)
-
+    news_p = step2.find('div', class_='article_teaser_body').text
+    news_p
 
     # ## JPL Mars Page Space Images - Featured Image
 
@@ -76,7 +71,7 @@ def scrape():
     #marsfacts_df
 
     # Convert table to html
-    marsfacts_html = [marsfacts_df.to_html(classes='data table table-borderless', index=False, header=False, border=0)]
+    marsfacts_html = marsfacts_df.to_html(classes='data table table-borderless', index=False, header=True, border=0)
     #marsfacts_html
 
 
