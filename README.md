@@ -15,7 +15,7 @@ Scrape the NASA Mars News Site and collect the latest News Title and Paragraph T
 
 * Visit the url for JPL Featured Space Image.
 * Use splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable called featured_image_url.
-![Mars_Pic](Mission_to_Mars/Images/NASA_featuredimg.png)
+![Mars_Pic](https://github.com/britchin/web-scraping-challenge/blob/main/Mission_to_Mars/Images/NASA%20_featuredimg.png)
 
 ### Mars Facts
 
